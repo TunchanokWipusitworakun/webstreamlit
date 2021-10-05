@@ -11,10 +11,9 @@ st.set_page_config(layout="wide")
 row1_1, row1_2 = st.columns(2)
 
 with row1_1:
-  date_select = st.selectbox("select day of pick up",("Jan. 1, 2019", "Jan. 2, 2019","Jan. 3, 2019","Jan. 4, 2019","Jan. 5, 2019"))
+	date_select = st.selectbox("select day of pick up",("Jan. 1, 2019", "Jan. 2, 2019","Jan. 3, 2019","Jan. 4, 2019","Jan. 5, 2019"))
 	hour_selected = st.slider("Select hour of pickup", 0, 23)
- 
- with row1_2:
+with row1_2:
 	st.title("Streamlit web map")
 
 # LOADING DATA
