@@ -90,7 +90,7 @@ latitude = 19.331900
 zoom_level = 12
 
 st.write("**web map**")
-map(data, 100.819200 ,19.331900 , zoom_level)
+map(data,latitude , longitude , zoom_level)
 
 # FILTERING DATA FOR THE HISTOGRAM
 filtered = data[
