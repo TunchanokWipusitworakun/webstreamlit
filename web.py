@@ -79,7 +79,7 @@ def map(data, lat, lon, zoom):
 
 
 # FILTERING DATA BY HOUR SELECTED
-data = data[data[DATE_TIME].dt.hour == hour_selected] & (data[DATE_TIME].dt.year == 2019)]
+data = data[(data[DATE_TIME].dt.hour == hour_selected) & (data[DATE_TIME].dt.year == 2019)]
 
 #create map
 longitude = 100.819200
