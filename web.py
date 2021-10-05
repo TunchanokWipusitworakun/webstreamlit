@@ -5,6 +5,7 @@ import streamlit as st
 from streamlit_folium import folium_static
 import altair as alt
 import pydeck as pdk
+import numpy as np
 
 # SETTING PAGE CONFIG TO WIDE MODE
 st.set_page_config(layout="wide")
