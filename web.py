@@ -17,7 +17,8 @@ with row1_1:
 	date_select = st.selectbox("select day of pick up",("Jan. 1, 2019", "Jan. 2, 2019","Jan. 3, 2019","Jan. 4, 2019","Jan. 5, 2019"))
 	hour_selected = st.slider("Select hour of pickup", 0, 23)
 with row1_2:
-	st.title("Streamlit web map")
+	st.title("Streamlit web map by Tunchanok Wipusitworakun 6130243921")
+	
 
 # LOADING DATA
 DATE_TIME = "date/time"
